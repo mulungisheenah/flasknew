@@ -1,0 +1,30 @@
+body, h1{
+    background-color: rgb(201, 132, 30);
+    border-radius: 10px;
+    
+}
+nav{
+    background-color: #222;
+    border-radius:80px;
+}
+ul li{
+    color: #27330f;
+    display: inline;
+    margin-left: 5px;
+    font-size: 60px;
+}
+ul{
+    padding: 10px;
+}
+img{
+    align-items: center;
+}
+button{
+    padding: 5px;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+}
+
+

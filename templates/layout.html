@@ -1,0 +1,27 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>WEBSITE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{url_for ('static',filename='style.css')}}">
+    <link rel="stylesheet" href="{{url_for ('static', filename='bootstrap.css')}}">
+</head>
+<body>
+    <h1>KINGS&QUEENS</h1>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/images"></a>Images</li>
+        </ul>
+    </nav>
+    {% block body %}
+
+    
+    {% endblock %}
+
+</body>
+</html>

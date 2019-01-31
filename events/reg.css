@@ -1,0 +1,40 @@
+body{
+    background-image: url('pia.jpeg');
+    background-repeat: no-repeat;
+    background-size: 1280px 7000px;
+}
+.container{
+    margin: 0 Auto;
+    height: 50vh;
+    width: 40vw;
+    margin-left: 50vw;
+    font-size: 24px;
+    text-align: center;
+    margin-left:300px;
+    width: 600px;
+ 
+}
+
+.cl{
+    background-color: cyan;
+    box-sizing: 24px;
+}
+input[type="text"], [type="contact"]{
+    width: 90%;
+    padding: 0;
+    text-align: center;
+    margin: 0 auto;
+    border: 0;
+    height: 50px;
+    border-radius: 7px;
+    font-size: 16px;
+    display: block;
+    margin-top: 20px;
+    background-color: white;
+}
+button{
+    background-color: chartreuse;
+}
+.ticket{
+    list-style: none;
+}

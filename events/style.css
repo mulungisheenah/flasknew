@@ -1,0 +1,36 @@
+body{
+    
+    color: black;
+    background-image: url('guit.jpeg');
+    background-repeat: no-repeat;
+    background-size: 1280px 720px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    /* float: left; */
+    font-size: 20px;
+    padding: 20px;
+}
+.nav-item{
+    display: inline-block;
+    float: right;
+}
+.fab{
+   height: 40px;
+   width: 100px;
+   
+}
+footer{
+    background-color: aliceblue; 
+    opacity: .7;
+    border-radius: 8px;
+    padding-left: 50px;
+    padding-right: 50px; 
+}
+.foot{
+    color: blue;
+}
